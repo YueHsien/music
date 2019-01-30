@@ -40,8 +40,7 @@ if ( isset($_POST["Password"]) )
 // 檢查是否輸入使用者名稱和密碼
 if ($username != "" && $password != "") {
    // 建立MySQL的資料庫連接 
-   $link = mysqli_connect("localhost","root",
-                          "","music")
+   $link = mysqli_connect("yuehsienmysql-mysqldbserver.mysql.database.azure.com", "sqladmin@yuehsienmysql-mysqldbserver","cd717630") 
         or die("無法開啟MySQL資料庫連接!<br/>");
    //送出UTF8編碼的MySQL指令
    mysqli_query($link, 'SET NAMES utf8'); 

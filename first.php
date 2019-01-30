@@ -90,6 +90,9 @@ if ($_SESSION ["login_session"] == true) {
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
+<script>
+alert("本網站只提供教學用途!必無用於商場行為，如有法律問題，本站不付一切責任!")
+</script>
 	<div class="top_topmenu">
 		<div class="top_topmenu_frame">
 			<div class="float_left top_topmenu_left">
